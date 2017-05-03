@@ -6,6 +6,5 @@ set -eo pipefail
 # BACKEND_SCHEME =
 # BACKEND_TARGET =
 
-
 exec /simple-proxy --backend-scheme ${BACKEND_SCHEME} --backend-target ${BACKEND_TARGET}
 return

@@ -37,6 +37,10 @@ Example:
 
 This code currently requires version 1.8.1 or higher of Go.
 
+. build.sh is the tool to create multiple executables. Keep or destroy what you need/don't need.
+
+Also look at godep for instructions on recording dependencies: <https://github.com/tools/godep>
+
 Information on Golang installation, including pre-built binaries, is available at <http://golang.org/doc/install>.
 
 Run `go version` to see the version of Go which you have installed.
