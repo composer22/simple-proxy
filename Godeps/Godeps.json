@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/composer22/simple-proxy",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v70",
+	"Deps": [
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "cb88ea77998c3f024757528e3305022ab50b43be"
+		}
+	]
+}
