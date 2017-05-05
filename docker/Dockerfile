@@ -10,7 +10,7 @@ RUN apk upgrade --update \
   && apk add --update bash curl \
   && rm -rf /var/cache/apk/* /tmp/*
 
-ADD simple-proxy /simple-proxy
+ADD simple-proxy-linux-amd64 /simple-proxy
 ADD docker-entrypoint.sh /docker-entrypoint.sh
 
 EXPOSE 80
