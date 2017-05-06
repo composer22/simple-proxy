@@ -88,7 +88,6 @@ func main() {
 		func(w http.ResponseWriter, r *http.Request) {
 			director := func(req *http.Request) {
 				req = r
-				req.Header.Set("Host", backendTarget)
 				req.URL.Scheme = backendScheme
 				req.URL.Host = backendTarget
 			}
